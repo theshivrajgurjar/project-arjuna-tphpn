@@ -1,0 +1,116 @@
+{
+  "architecture": "Arjuna-T-PHPN-v15.0",
+  "author": "@theshivrajgurjar (Shivraj Gurjar)",
+  "hardware_verified": "Dual NVIDIA Tesla T4 GPUs (2x 16GB GDDR6, Turing SM75)",
+  "active_footprint_mb_per_universe": 4.68,
+  "unbinding_cosine_fidelity_fp16": 0.9913,
+  "mastered_universes": {
+    "universe_1_linear_additive_z3": {
+      "accuracy": "100.00%",
+      "ce_loss": 0.0001
+    },
+    "universe_2_quadratic_multiplicative_z4": {
+      "accuracy": "100.00%",
+      "ce_loss": 0.0
+    },
+    "universe_3_cubic_bitwise_xor_z8": {
+      "accuracy": "100.00%",
+      "ce_loss": 0.0
+    },
+    "universe_4_weierstrass_elliptic_f47": {
+      "accuracy": "100.00%",
+      "ce_loss": 0.0004
+    }
+  },
+  "bsd_elliptic_curve_proofs": {
+    "curve_1": {
+      "equation": "y^2 = x^3 - 88x + 169",
+      "rank": 4,
+      "regulator": 6.6618,
+      "basis": [
+        [
+          -10,
+          7
+        ],
+        [
+          -8,
+          19
+        ],
+        [
+          -5,
+          22
+        ],
+        [
+          -1,
+          16
+        ]
+      ],
+      "integral_points_spanned": "18/18 (100.0%, 36 solutions in Z^2)"
+    },
+    "curve_2_million_sweep_champion": {
+      "equation": "y^2 = x^3 - 172x + 820",
+      "rank": 4,
+      "fundamental_regulator": 2.3092,
+      "index_4_3_quotient_syzygy": "+-4*G5(-4,38) == -2*G1(-15,5) (+) 2*G2(-14,22) (+) 1*G3(-12,34) (+) -3*G4(-7,41)",
+      "fundamental_basis": [
+        [
+          -7,
+          41
+        ],
+        [
+          2,
+          22
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          12,
+          22
+        ]
+      ],
+      "integral_points_spanned": "27/27 (100.0%, 54 solutions in Z^2)"
+    }
+  },
+  "erdos_turan_singer_sidon_32_in_1000": {
+    "size": 32,
+    "span": "[1..903] <= 1000",
+    "unique_pairwise_sums": 528,
+    "zero_collisions_verified": true,
+    "elements": [
+      1,
+      10,
+      81,
+      148,
+      173,
+      186,
+      226,
+      305,
+      334,
+      350,
+      392,
+      409,
+      415,
+      423,
+      433,
+      485,
+      518,
+      545,
+      546,
+      548,
+      567,
+      582,
+      602,
+      614,
+      688,
+      776,
+      802,
+      848,
+      853,
+      892,
+      896,
+      903
+    ]
+  }
+}
